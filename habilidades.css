@@ -1,0 +1,138 @@
+*{margin: 0;padding: 0;}
+@font-face
+{
+    font-family: "land";
+    src:url(fonts/Enchanted\ Land.otf);
+    font-style: normal;
+}
+html,body{height: 100%;}
+.geral
+{
+    min-height: 100%;
+    position: relative;
+}
+body
+{
+    background-color: #a3a3a3;
+}
+/*degrade CSS*/
+
+.background-header
+{
+    background: -webkit-radial-gradient(left,rgb(0,119,136),rgb(7,213,213));
+    padding-bottom: 30px;
+    color:white;
+
+}
+
+
+.background-footer
+{
+   background:-webkit-radial-gradient(left,rgb(0,119,136),rgb(7,213,213));
+   color:white;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   font-family: land;
+   font-size: 25px;
+}
+
+
+h1
+{
+    padding-left: 7px;
+    font-style: normal;
+    font-family: land;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+h2
+{
+    font-family: land;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+nav
+{
+   display: flex;
+   justify-content: space-between;
+}
+.cabecalho
+{
+    display: inline;
+    padding-right: 20px;
+    font-size: 40px;
+    font-family: land;
+}
+
+a{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+i
+{
+    color: red;
+}
+
+.lista-habilidades
+{
+    padding: 0;
+    font-family: land;
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 35%;
+   padding-top: 10%;
+}
+
+/*imagens*/
+.icon-C
+{
+    width: 5%;
+    height: auto;
+    padding-right: 5px;
+}
+
+.icon-hs
+{
+    width: 5.5%;
+    height: auto;
+}
+
+.icon-html
+{
+    width: 5.5%;
+    height: auto;
+}
+
+.icon-js
+{
+    width: 5.5%;
+    height: auto;
+    padding-top: 10px;
+    position: relative;
+    
+}
+.fundo01
+{
+    width: 30%;
+    height: auto;
+    padding-inline-start: 20px;
+    padding-bottom: 10%;
+}
+
+.fundo02
+{
+    width: 30%;
+    height: auto;
+    padding-right: 20px;
+}
